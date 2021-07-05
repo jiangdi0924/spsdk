@@ -170,7 +170,8 @@ func (s *SellingPartner) RefreshCredentials() error {
 // expiryDelta determines how earlier a token should be considered
 // expired than its actual expiration time. It is used to avoid late
 // expirations due to client-server time mismatches.
-const expiryDelta = 1 * time.Minute
+// 修改access_token过期日期判断为50分钟
+const expiryDelta = 1 * 50 * time.Minute
 
 func (s *SellingPartner) SignRequest(r *http.Request) error {
 
