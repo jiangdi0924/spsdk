@@ -855,13 +855,10 @@ type ValidateContentDocumentAsinRelationsResponse struct {
 }
 
 // Asin defines model for asin.
-type Asin string
 
 // AsinSet defines model for asinSet.
-type AsinSet []string
 
 // ContentReferenceKey defines model for contentReferenceKey.
-type ContentReferenceKey string
 
 // GetContentDocumentIncludedDataSet defines model for getContentDocumentIncludedDataSet.
 type GetContentDocumentIncludedDataSet []string
@@ -870,10 +867,8 @@ type GetContentDocumentIncludedDataSet []string
 type ListContentDocumentAsinRelationsIncludedDataSet []string
 
 // MarketplaceId defines model for marketplaceId.
-type MarketplaceId string
 
 // PageToken defines model for pageToken.
-type PageToken string
 
 // ValidateContentDocumentAsinRelationsJSONBody defines parameters for ValidateContentDocumentAsinRelations.
 type ValidateContentDocumentAsinRelationsJSONBody PostContentDocumentRequest
